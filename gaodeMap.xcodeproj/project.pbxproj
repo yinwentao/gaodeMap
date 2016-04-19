@@ -15,6 +15,22 @@
 		B6DB3FFE1C9FDC7A00D6DB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DB3FFC1C9FDC7A00D6DB70 /* LaunchScreen.storyboard */; };
 		B6DB40091C9FDC7A00D6DB70 /* gaodeMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DB40081C9FDC7A00D6DB70 /* gaodeMapTests.m */; };
 		B6DB40141C9FDC7A00D6DB70 /* gaodeMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DB40131C9FDC7A00D6DB70 /* gaodeMapUITests.m */; };
+		B6DB40241C9FF23500D6DB70 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB40221C9FF23500D6DB70 /* AMapSearchKit.framework */; };
+		B6DB40251C9FF23500D6DB70 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB40231C9FF23500D6DB70 /* MAMapKit.framework */; };
+		B6DB40271C9FF31100D6DB70 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6DB40261C9FF31100D6DB70 /* AMap.bundle */; };
+		B6DB402A1C9FF65700D6DB70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB40281C9FF62700D6DB70 /* UIKit.framework */; };
+		B6DB402C1C9FF66900D6DB70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB402B1C9FF66900D6DB70 /* Foundation.framework */; };
+		B6DB402E1C9FF67200D6DB70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB402D1C9FF67200D6DB70 /* CoreGraphics.framework */; };
+		B6DB40301C9FF67A00D6DB70 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB402F1C9FF67A00D6DB70 /* QuartzCore.framework */; };
+		B6DB40321C9FF68400D6DB70 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB40311C9FF68400D6DB70 /* OpenGLES.framework */; };
+		B6DB40341C9FF68C00D6DB70 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB40331C9FF68C00D6DB70 /* CoreLocation.framework */; };
+		B6DB40361C9FF69400D6DB70 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB40351C9FF69400D6DB70 /* CoreTelephony.framework */; };
+		B6DB40381C9FF6A900D6DB70 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB40371C9FF6A900D6DB70 /* SystemConfiguration.framework */; };
+		B6DB403A1C9FF6C900D6DB70 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB40391C9FF6C900D6DB70 /* libz.tbd */; };
+		B6DB403C1C9FF6D600D6DB70 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB403B1C9FF6D600D6DB70 /* libstdc++.6.0.9.tbd */; };
+		B6DB403E1C9FF6E800D6DB70 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB403D1C9FF6E800D6DB70 /* libc++.tbd */; };
+		B6DB40401C9FF6F100D6DB70 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB403F1C9FF6F100D6DB70 /* Security.framework */; };
+		B6DB40451CA0FCCC00D6DB70 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DB40441CA0FCCC00D6DB70 /* LocationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,24 @@
 		B6DB400F1C9FDC7A00D6DB70 /* gaodeMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gaodeMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DB40131C9FDC7A00D6DB70 /* gaodeMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gaodeMapUITests.m; sourceTree = "<group>"; };
 		B6DB40151C9FDC7A00D6DB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6DB40221C9FF23500D6DB70 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		B6DB40231C9FF23500D6DB70 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		B6DB40261C9FF31100D6DB70 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		B6DB40281C9FF62700D6DB70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6DB402B1C9FF66900D6DB70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6DB402D1C9FF67200D6DB70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6DB402F1C9FF67A00D6DB70 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6DB40311C9FF68400D6DB70 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B6DB40331C9FF68C00D6DB70 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B6DB40351C9FF69400D6DB70 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B6DB40371C9FF6A900D6DB70 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B6DB40391C9FF6C900D6DB70 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B6DB403B1C9FF6D600D6DB70 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		B6DB403D1C9FF6E800D6DB70 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B6DB403F1C9FF6F100D6DB70 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B6DB40421CA010AF00D6DB70 /* GDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDPrefixHeader.pch; sourceTree = "<group>"; };
+		B6DB40431CA0FCCC00D6DB70 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		B6DB40441CA0FCCC00D6DB70 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DB40401C9FF6F100D6DB70 /* Security.framework in Frameworks */,
+				B6DB403E1C9FF6E800D6DB70 /* libc++.tbd in Frameworks */,
+				B6DB403C1C9FF6D600D6DB70 /* libstdc++.6.0.9.tbd in Frameworks */,
+				B6DB403A1C9FF6C900D6DB70 /* libz.tbd in Frameworks */,
+				B6DB40381C9FF6A900D6DB70 /* SystemConfiguration.framework in Frameworks */,
+				B6DB40361C9FF69400D6DB70 /* CoreTelephony.framework in Frameworks */,
+				B6DB40341C9FF68C00D6DB70 /* CoreLocation.framework in Frameworks */,
+				B6DB40321C9FF68400D6DB70 /* OpenGLES.framework in Frameworks */,
+				B6DB40301C9FF67A00D6DB70 /* QuartzCore.framework in Frameworks */,
+				B6DB402E1C9FF67200D6DB70 /* CoreGraphics.framework in Frameworks */,
+				B6DB402C1C9FF66900D6DB70 /* Foundation.framework in Frameworks */,
+				B6DB402A1C9FF65700D6DB70 /* UIKit.framework in Frameworks */,
+				B6DB40251C9FF23500D6DB70 /* MAMapKit.framework in Frameworks */,
+				B6DB40241C9FF23500D6DB70 /* AMapSearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +149,13 @@
 		B6DB3FED1C9FDC7A00D6DB70 /* gaodeMap */ = {
 			isa = PBXGroup;
 			children = (
+				B6DB40211C9FF18700D6DB70 /* ulitys */,
 				B6DB3FF11C9FDC7A00D6DB70 /* AppDelegate.h */,
 				B6DB3FF21C9FDC7A00D6DB70 /* AppDelegate.m */,
 				B6DB3FF41C9FDC7A00D6DB70 /* ViewController.h */,
 				B6DB3FF51C9FDC7A00D6DB70 /* ViewController.m */,
+				B6DB40431CA0FCCC00D6DB70 /* LocationViewController.h */,
+				B6DB40441CA0FCCC00D6DB70 /* LocationViewController.m */,
 				B6DB3FF71C9FDC7A00D6DB70 /* Main.storyboard */,
 				B6DB3FFA1C9FDC7A00D6DB70 /* Assets.xcassets */,
 				B6DB3FFC1C9FDC7A00D6DB70 /* LaunchScreen.storyboard */,
@@ -117,7 +168,20 @@
 		B6DB3FEE1C9FDC7A00D6DB70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6DB403F1C9FF6F100D6DB70 /* Security.framework */,
+				B6DB403D1C9FF6E800D6DB70 /* libc++.tbd */,
+				B6DB403B1C9FF6D600D6DB70 /* libstdc++.6.0.9.tbd */,
+				B6DB40391C9FF6C900D6DB70 /* libz.tbd */,
+				B6DB40371C9FF6A900D6DB70 /* SystemConfiguration.framework */,
+				B6DB40351C9FF69400D6DB70 /* CoreTelephony.framework */,
+				B6DB40331C9FF68C00D6DB70 /* CoreLocation.framework */,
+				B6DB40311C9FF68400D6DB70 /* OpenGLES.framework */,
+				B6DB402F1C9FF67A00D6DB70 /* QuartzCore.framework */,
+				B6DB402D1C9FF67200D6DB70 /* CoreGraphics.framework */,
+				B6DB402B1C9FF66900D6DB70 /* Foundation.framework */,
+				B6DB40281C9FF62700D6DB70 /* UIKit.framework */,
 				B6DB3FEF1C9FDC7A00D6DB70 /* main.m */,
+				B6DB40421CA010AF00D6DB70 /* GDPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +202,16 @@
 				B6DB40151C9FDC7A00D6DB70 /* Info.plist */,
 			);
 			path = gaodeMapUITests;
+			sourceTree = "<group>";
+		};
+		B6DB40211C9FF18700D6DB70 /* ulitys */ = {
+			isa = PBXGroup;
+			children = (
+				B6DB40261C9FF31100D6DB70 /* AMap.bundle */,
+				B6DB40221C9FF23500D6DB70 /* AMapSearchKit.framework */,
+				B6DB40231C9FF23500D6DB70 /* MAMapKit.framework */,
+			);
+			path = ulitys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +319,7 @@
 			files = (
 				B6DB3FFE1C9FDC7A00D6DB70 /* LaunchScreen.storyboard in Resources */,
 				B6DB3FFB1C9FDC7A00D6DB70 /* Assets.xcassets in Resources */,
+				B6DB40271C9FF31100D6DB70 /* AMap.bundle in Resources */,
 				B6DB3FF91C9FDC7A00D6DB70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +348,7 @@
 				B6DB3FF61C9FDC7A00D6DB70 /* ViewController.m in Sources */,
 				B6DB3FF31C9FDC7A00D6DB70 /* AppDelegate.m in Sources */,
 				B6DB3FF01C9FDC7A00D6DB70 /* main.m in Sources */,
+				B6DB40451CA0FCCC00D6DB70 /* LocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,9 +487,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gaodeMap/ulitys",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/gaodeMap/GDPrefixHeader.pch";
 				INFOPLIST_FILE = gaodeMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xmqq.www.cs129.gaodeMap;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmqq99.gaodeMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -422,9 +506,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gaodeMap/ulitys",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/gaodeMap/GDPrefixHeader.pch";
 				INFOPLIST_FILE = gaodeMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xmqq.www.cs129.gaodeMap;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmqq99.gaodeMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +588,7 @@
 				B6DB401A1C9FDC7A00D6DB70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6DB401B1C9FDC7A00D6DB70 /* Build configuration list for PBXNativeTarget "gaodeMapTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +597,7 @@
 				B6DB401D1C9FDC7A00D6DB70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6DB401E1C9FDC7A00D6DB70 /* Build configuration list for PBXNativeTarget "gaodeMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +606,7 @@
 				B6DB40201C9FDC7A00D6DB70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
